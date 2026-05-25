@@ -11,6 +11,6 @@ for filepath in filepaths:
     filename = Path(filepath).stem
     pdf.add_page()
     pdf.set_font(family= "Times",style= "B",size= 16)
-    pdf.cell(w=50,h=8,txt=f"{filename}")
+    pdf.cell(w=50,h=8,txt=f"{filename.title()}")
 
 pdf.output("PDFs/Animal.pdf")
