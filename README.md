@@ -1,1 +1,1 @@
-#PDF Generator from Text Files
+PDF Generator from Text Files
